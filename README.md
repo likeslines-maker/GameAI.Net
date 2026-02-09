@@ -402,8 +402,6 @@ Indie — $49 / month
 
 Up to 1,000 active agents (concurrent)
 
-Community support (email),best-effort response
-
 
 
 Studio — $499 / month
@@ -412,7 +410,6 @@ Up to 3 projects
 
 Up to 10,000 active agents
 
-Priority support (email/Telegram),response within 2 business days
 
 
 
@@ -420,9 +417,12 @@ Enterprise / AAA — from $2,999 / month
 
 Unlimited projects and agents
 
-Architecture/performance review support,SLA options
 
-Optional source code access (by separate agreement)
+
+
+How it works commercially:
+Evaluate freely
+Commercial use requires a paid license
 
 
 
