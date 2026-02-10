@@ -358,11 +358,14 @@ Three curated scenarios:
 
 
 
-Small: 1,000 NPC; utility 10k×32; crowd 10k; emotion 10k nodes; emotion update every 4 frames; 10% active sources.
-
-Medium: 5,000 NPC; utility 50k×64; crowd 50k; emotion 50k nodes; emotion update every 4 frames; 10% active sources.
-
-Large: 10,000 NPC; utility 100k×64; crowd 100k; emotion 100k nodes; emotion update every 4 frames; 10% active sources.
+| Parameter | Small Scenario | Medium Scenario | Large Scenario |
+|-----------|----------------|-----------------|----------------|
+| NPC Count | 1,000 | 5,000 | 10,000 |
+| Utility System | 10k evaluations × 32 features | 50k evaluations × 64 features | 100k evaluations × 64 features |
+| Crowd System | 10k agents | 50k agents | 100k agents |
+| Emotion Graph | 10k nodes | 50k nodes | 100k nodes |
+| Emotion Update | Every 4 frames | Every 4 frames | Every 4 frames |
+| Active Sources | 10% | 10% | 10% |
 
 
 
