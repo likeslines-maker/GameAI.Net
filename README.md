@@ -373,15 +373,15 @@ Selected results (module-level):
 
 
 
-BT TickFast (10k NPC): ~297 µs (Jagged) / ~285 µs (SoA)
+| Module / Benchmark | Configuration | Result |
+|-------------------|---------------|--------|
+| BT TickFast | 10k NPC (Jagged) | ~297 µs |
+| BT TickFast | 10k NPC (SoA) | ~285 µs |
+| Utility Scoring | 100k×64 (serial) | ~4.68 ms |
+| Utility Scoring | 100k×64 (parallel) | ~1.16 ms |
+| Frame Budget | FrameN_* (N=4) | See note below |
 
-Utility scoring (100k×64): ~4.68 ms (serial) / ~1.16 ms (parallel)
-
-
-
-Frame budget benchmark (FrameN\_\*) runs N=4 frames per invocation (emotion update once per 4 frames).
-
-Per-frame latency is Mean / 4.
+*Note: FrameN_* benchmarks run N=4 frames per invocation (emotion update once per 4 frames). Per-frame latency = Mean / 4.*
 
 
 
